@@ -1,0 +1,22 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.link-menu {
+  @apply p-4 no-underline border-transparent border-b-2 text-gray-600 hover:border-red-400 hover:text-black;
+}
+
+.layout {
+  @apply px-6 py-5 min-h-full;
+}
+
+@tailwind utilities;

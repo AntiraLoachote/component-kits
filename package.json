@@ -1,0 +1,15 @@
+{
+  "name": "component-kits",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "build:watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  }
+}
